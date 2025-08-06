@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Roblox Playtime",
+  "version": "1.0",
+
+  "description": "Adds a weekly playtime counter to Roblox game pages using the parental controls API.",
+
+  "permissions": [
+    "cookies",
+    "https://www.roblox.com/*",
+    "https://apis.roblox.com/*",
+    "https://games.roblox.com/*"
+  ],
+
+  "icons": {
+    "48": "icons/48.png"
+  },
+
+  "incognito": "not_allowed",
+
+  "background": {
+    "scripts": ["dist/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.roblox.com/games/*"],
+      "js": ["dist/content.js"]
+    }
+  ]
+}
