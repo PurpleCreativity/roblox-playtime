@@ -2,6 +2,9 @@
 
 Adds a weekly playtime counter to Roblox game pages using the parental controls API.
 
+> [!INFORMATION]
+> Now available on the mozilla [extensions catalog](https://addons.mozilla.org/en-US/firefox/addon/roblox-playtime/)!
+
 > [!WARNING]
 > Due to how roblox stores playtime or "screentime" data, this will refresh every week, and is limited to your top 20 most played experiences in said week.
 
