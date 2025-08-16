@@ -2,7 +2,7 @@
 
 Adds a weekly playtime counter to Roblox game pages using the parental controls API.
 
-> [!INFORMATION]
+> [!NOTE]
 > Now available on the mozilla [extensions catalog](https://addons.mozilla.org/en-US/firefox/addon/roblox-playtime/)!
 
 > [!WARNING]
